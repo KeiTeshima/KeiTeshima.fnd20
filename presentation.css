@@ -1,0 +1,57 @@
+.greenbox {
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    /* margin: 0 auto; */
+}
+#text {
+    height: 18px;
+}
+.gator_button {
+    height: 30px;
+}
+.bluebox {
+    width: 100vw;
+    height: 30px;
+    /* background-color: blue; */
+    /* margin: 0 auto; */
+}
+.slider {
+    width: 100vw;
+    /* margin: 20px auto 0; */
+    padding: 0;
+}
+.img_box {
+    width: 100vw;
+    /* width: 1920px;
+    height: 1011px; */
+}
+#slide_img {
+    width: 100vw;
+}
+.button {
+    width: 100vw;
+    /* margin: 0 auto; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#prev,
+#next {
+    margin: 8px 30px;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    user-select: none;
+    cursor: pointer;
+}
+#page {
+    height: 18px;
+    line-height: 18px;
+    margin: 8px 0;
+    user-select: none;
+    color: #fff;
+}
