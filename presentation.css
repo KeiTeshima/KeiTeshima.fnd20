@@ -1,41 +1,120 @@
-.greenbox {
-    width: 300px;
-    height: 30px;
-    background-color: green;
-    /* margin: 0 auto; */
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+h1 {
+    font-size: 70px;
+    padding: 2rem;
+    color: white;
+    background-image: url("img/05.jpg");
+    text-align: center;
 }
+
+h2 {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+h2::before {
+    position: absolute;
+    bottom: -5px;
+    left: 45%;
+    width: 195px;
+    height: 5px;
+    content: 'Greeting';
+    border-radius: 5px;
+    background: limegreen;
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+}
+h3 {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+h3::before {
+    position: absolute;
+    bottom: -5px;
+    left: 45%;
+    width: 195px;
+    height: 5px;
+    content: 'Introduction';
+    border-radius: 5px;
+    background: limegreen;
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+}
+
+h4 {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+h4::before {
+    position: absolute;
+    bottom: -5px;
+    left: 45%;
+    width: 195px;
+    height: 5px;
+    content: 'News Release';
+    border-radius: 5px;
+    background: limegreen;
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+}
+
+p {
+    font-size: 30px;
+    color: darkslategray;
+    text-align: center;
+}
+
+.media {
+    text-align: center;
+}
+
+.joinbox {
+    width: 250px;
+    height: 30px;
+    background-color: limegreen;
+    margin: 0 auto;
+}
+
 #text {
     height: 18px;
 }
-.gator_button {
+
+.join_button {
     height: 30px;
 }
-.bluebox {
+
+.thankyoubox {
     width: 100vw;
     height: 30px;
-    /* background-color: blue; */
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
+
 .slider {
-    width: 100vw;
-    /* margin: 20px auto 0; */
-    padding: 0;
+    width: 80vw;
+    margin: 0 auto;
 }
+
 .img_box {
-    width: 100vw;
-    /* width: 1920px;
-    height: 1011px; */
+    width: 80vw;
 }
+
 #slide_img {
-    width: 100vw;
+    width: 80vw;
 }
+
 .button {
-    width: 100vw;
-    /* margin: 0 auto; */
-    background-color: black;
+    width: 80vw;
+    background-color: darkslategray;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
+
 #prev,
 #next {
     margin: 8px 30px;
@@ -48,6 +127,7 @@
     user-select: none;
     cursor: pointer;
 }
+
 #page {
     height: 18px;
     line-height: 18px;
